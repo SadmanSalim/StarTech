@@ -4,14 +4,16 @@
     box-sizing: border-box;
     font-family: 'poppins', 'sens-serif';
 }
-.header{
+nav{
     background: #081621;
-    width: 100%;
     height: 100px;
 }
-/* .container{
-    position: relative;
-} */
+.container{
+    width: 1300px;
+    background: red;
+    margin: auto;
+}
+
 .logo{
     position: absolute;
     left: 40px;
@@ -44,16 +46,55 @@
     top: 20px;
     display: flex;
 }
-.right-side a{
+.gift,
+.lightning,
+.user{
     color: #ef4a23;
+    position: absolute;
+    top: 30px;
+    font-size: 25px;
 }
-.right-side h4{
-    color: #fff;
-}
-.p-tags{
+.gift{
     left: 850px;
-    top: 40px;
+}
+.lightning{
+    left: 1020px;
+}
+.user{
+    left: 1205px;
+}
+.offer,
+.happy,
+.account{
     color: #fff;
     position: absolute;
+    top: 22px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.offer,
+.lat{
+    left: 895px;
+}
+.happy,
+.deal{
+    left: 1060px;
+}
+.account,
+.reg{
+    left: 1245px;
+}
+.lat,
+.deal,
+.reg{
+    font-size: 14px;
+    font-weight: 300;
+    top: 50px;
+    color: #848b90;
+    position: absolute;
+}
+.btn-1{
+    position: absolute;
+    left: 1600px;
 }
 
