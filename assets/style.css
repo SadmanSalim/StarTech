@@ -96,5 +96,22 @@ nav{
 .btn-1{
     position: absolute;
     left: 1600px;
+    background: rgb(36,60,166);
+    background: linear-gradient(90deg, rgba(36,60,166,1) 38%, rgba(12,191,232,1) 76%);
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 1380px;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background: white;
+    color: rgb(16, 54, 226);
+    cursor: pointer;
 }
 
