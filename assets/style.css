@@ -165,6 +165,7 @@ nav{
 }
 .sub-menu-desktop{
     position: relative;
+    z-index: 100;
 }
 .sub-menu-child-desktop{
     position: absolute;
