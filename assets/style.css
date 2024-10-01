@@ -79,7 +79,7 @@ nav{
     display: flex;
     position: absolute;
     left: 745px;
-    top: 39px;
+    top: 35px;
 }
 .icon-text-1 a{
     text-decoration: none;
@@ -121,36 +121,36 @@ nav{
 
 /* header start */
 
-section{
+#section-1{
     background: white;
     height: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-section .container-1{
+#section-1 .container-1{
     width: 1300px;
     margin: auto;
     height: 80px;
 }
-section .row ul{
+#section-1 .row ul{
     list-style-type: none;
 }
-section .row li{
+#section-1 .row li{
     margin-left: 15px;
     margin-top: 5px;
     display: inline-block;
 }
-section .row li a{
+#section-1 .row li a{
     text-decoration: none;
     color: #000;
     font-weight: 500;
     font-size: 14px;
     position: relative;
 }
-section .row li a:hover{
+#section-1 .row li a:hover{
     color: #f58220;
 }
-section .row li a::after{
+#section-1 .row li a::after{
     content: '';
     position: absolute;
     width: 0%;
@@ -160,7 +160,7 @@ section .row li a::after{
     bottom: 0;
     transition: 0.5s cubic-bezier(.17,.67,.83,.67);
 }
-section .row li a:hover::after{
+#section-1 .row li a:hover::after{
     width: 100%;
 }
 .sub-menu-desktop{
@@ -170,7 +170,8 @@ section .row li a:hover::after{
     position: absolute;
     background: white;
     width: 175px;
-    height: 220px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     visibility: hidden;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -190,6 +191,15 @@ section .row li a:hover::after{
 #second-arrow{
     margin-left: 57px;
 }
+#third-arrow{
+    margin-left: 60px;
+}
+#fourth-arrow{
+    margin-left: 20px;
+}
+#fifth-arrow{
+    margin-left: 50px;
+}
 .sub-sub-parent-desktop{
     position: relative;
 }
@@ -208,7 +218,7 @@ section .row li a:hover::after{
 .sub-sub-child-desktop-1{
     position: absolute;
     background: white;
-    left: 152px;
+    left: 154px;
     width: 170px;
     visibility: hidden;
     top: 0;
@@ -216,4 +226,127 @@ section .row li a:hover::after{
 }
 .sub-sub-parent-desktop:hover .sub-sub-child-desktop-1{
     visibility: visible;
+}
+#sixth-arrow{
+    margin-left: 65px;
+}
+
+.sub-menu-child-desktop-2{
+    position: absolute;
+    background: white;
+    width: 175px;
+    right: 0;
+    top: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    visibility: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.sub-menu-child-desktop-2 li a{
+    display: block;
+    width: 150px;
+}
+.sub-menu-desktop:hover .sub-menu-child-desktop-2{
+    visibility: visible;
+}
+
+/* body */
+.section-2 .container{
+    width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.big-banner{
+    position: absolute;
+    top: 25px;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.small-banner{
+    position: absolute;
+    left: 1000px;
+    top: 320px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.small-banner img{
+    width: 300px;
+}
+.big-banner img{
+    width: 960px;
+}
+.compare-products{
+    background: #ffe8a1;
+    position: absolute;
+    top: 25px;
+    left: 1000px;
+    width: 300px;
+    height: 260px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.compare-products h1{
+    font-size: 15px;
+    margin-left: 85px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+.compare-products p{
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.search-1{
+    border: none;
+    outline: none;
+    left: 30px;
+    width: 240px;
+    top: 80px;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+    position: absolute;
+    color: #75758b;
+}
+.search-2{
+    border: none;
+    outline: none;
+    left: 30px;
+    width: 240px;
+    top: 135px;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+    position: absolute;
+    color: #75758b;
+
+}
+.comp-btn{
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    width: 240px;
+    height: 40px;
+    border: 2px solid #3749bb;
+    background: transparent;
+    color: #3749bb;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.4s cubic-bezier(1,1,1,.86);
+    cursor: pointer;
+}
+.comp-btn:hover{
+    background: #3749bb;
+    color: #fff;
+}
+#search-select-ic{
+    position: absolute;
+    left: 245px;
+    top: 87px;
+    color: #75758b;
+}
+#search-select-ic-1{
+    position: absolute;
+    left: 245px;
+    top: 141px;
+    color: #75758b;
 }
