@@ -257,6 +257,9 @@ nav{
     margin: auto;
     position: relative;
 }
+.section-2{
+    background: #f2f4f8;
+}
 
 .big-banner{
     position: absolute;
@@ -477,4 +480,31 @@ nav{
     margin: 15px;
     margin-top: 10px;
 }
+.announcement{
+    position: relative;
+    top: 700px;
+    background: #ffffff;
+    width: 1300px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    overflow: hidden;
+}
+.announcement p{
+    animation: 25s slide infinite linear;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    font-weight: 400;
+    color: black;
+    overflow: none;
+}
 
+@keyframes slide {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
