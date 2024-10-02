@@ -519,5 +519,50 @@ nav{
     margin: 40px 440px;
     position: absolute;
 }
+.categories{
+    position: relative;
+    top: 800px;
+}
 
-
+.ac{
+    position: absolute;
+    top: 140px;
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+    background: #f2f4f8;
+}
+.ac i,
+.drone i{
+    margin: 20px 50px;
+    font-size: 19px;
+    color: #283040;
+}
+.ac a,
+.drone a{
+    text-decoration: none;
+    color: #283040;
+    transition: 0.5s;
+}
+.ac a p{
+    left: 50px;
+    position: absolute;
+}
+.ac a:hover,
+.drone a:hover{
+    color: #ef4a23;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.drone{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+    background: #f2f4f8;
+}
+.drone a p{
+    position: absolute;
+    left: 35px;
+}
