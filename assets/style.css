@@ -351,3 +351,130 @@ nav{
     top: 141px;
     color: #75758b;
 }
+
+.laptop-finder{
+    position: absolute;
+    top: 550px;
+    left: 0;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 290px;
+    height: 75px;
+}
+.logo-laptop{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+    background: #ef4a23;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo-laptop a{
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    margin: 12px;
+    margin-top: 10px;
+}
+.laptop-text h1{
+    position: absolute;
+    left: 90px;
+    top: 10px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.laptop-text p{
+    position: absolute;
+    left: 90px;
+    top: 35px;
+    font-size: 15px;
+}
+.laptop-text a{
+    text-decoration: none;
+    color: #000;
+}
+.laptop-finder-1{
+    position: absolute;
+    top: 550px;
+    left: 330px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 290px;
+    border-radius: 5px;
+    height: 75px;
+}
+.logo-laptop-1{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+    background: #ef4a23;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo-laptop-1 a{
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    margin: 15.5px;
+    margin-top: 10px;
+}
+.laptop-finder-2{
+    position: absolute;
+    top: 550px;
+    left: 660px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 290px;
+    border-radius: 5px;
+    height: 75px;
+}
+.laptop-finder-3{
+    position: absolute;
+    top: 550px;
+    left: 990px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 290px;
+    border-radius: 5px;
+    height: 75px;
+}
+.logo-laptop-2{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+    background: #ef4a23;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo-laptop-3{
+    position: relative;
+    font-size: 20px;
+    top: 15px;
+    left: 20px;
+    background: #ef4a23;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.logo-laptop-2 a{
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    margin: 15px;
+    margin-top: 10px;
+}
+.logo-laptop-3 a{
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    margin: 15px;
+    margin-top: 10px;
+}
+
