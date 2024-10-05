@@ -606,8 +606,12 @@ nav{
 .featured_prodcuts_title p{
     font-size: 18px;
 }
-.all_featured_products{
-    position: relative;
+
+.all_featured_products_1{
+    position: absolute;
+    display: flex;
+    margin: 10px;
+    top: 520px;
 }
 .products_2{
 
@@ -641,13 +645,15 @@ nav{
 }
 .products_whole img{
     padding-top: 16px;
+    padding-left: 10px;
 }
-.price_description{
+/* .price_description{
     display: flex;
-}
+} */
 .price_name h4{
     margin-top: 30px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500;
     margin-left: 20px;
 }
 .price_description h1{
@@ -657,12 +663,14 @@ nav{
     color: #ef4a23;
     font-weight: 600;
 }
-/* .price_description a{
+.price_description a{
     color: black;
+    position: absolute;
     bottom: 50px;
+    margin-left: 95px;
     text-decoration: line-through;
     font-size: 13px;
-} */
+}
 .products_whole:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
