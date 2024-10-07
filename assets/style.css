@@ -54,22 +54,28 @@
 }
 .tool_1 i{
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 9px;
-    margin-left: 12px;
+    margin-left: 15px;
 }
 .tool_2 i{
     color: #fff;
-    font-size: 28px;
-    margin-left: 9px;
+    font-size: 20px;
+    margin-left: 13px;
     margin-top: 10px;
 }
+.tool_1 p{
+    color: #fff;
+    font-size: 8px;
+    position: absolute;
+    margin: 0 5px;
+}
+.tool_2 p{
+    color: #fff;
+    font-size: 8px;
+    margin: 0 15px;
+}
 
-/* @media screen and (max-width: 600px) {
-    h1 {
-        font-size: 36px;
-    }
-} */
 
 /* top nab-bar */
 nav {
@@ -1176,4 +1182,9 @@ footer {
     color: #7b7a7b;
     margin-left: 650px;
     margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
 }
